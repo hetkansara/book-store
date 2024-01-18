@@ -1,0 +1,48 @@
+.book-container {
+    width: 350px;
+    /* flex: 1; */
+    background-color: #fafafa;
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+    cursor: pointer;
+}
+.book-details-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* padding: */
+}
+.book-title {
+    font-size: 25px;
+}
+.book-category {
+    font-size: 20px;
+}
+.book-description {
+    text-align: left;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card-action { 
+    display: flex; 
+    justify-content: flex-end;
+}
+.action-card {
+    height: 100%;
+}
+.delete-actions { 
+    display: flex;
+    flex-direction: column; 
+}
+.delete-action-btns{
+    display: flex;
+    justify-content: space-between;
+}
